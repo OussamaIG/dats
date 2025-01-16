@@ -1,0 +1,11 @@
+# Ignore finetuned_model folder
+finetuned_model/
+
+# Ignore results folder
+results/
+
+# Ignore all JSON files
+*.json
+
+# Ignore all Excel files
+*.xlsx
