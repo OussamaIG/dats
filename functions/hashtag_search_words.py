@@ -35,7 +35,7 @@ def getRecentlySearchedHashtags(params):
 try:
     hashtag = sys.argv[1]
 except:
-    hashtag = 'humor'
+    hashtag = 'sports'
 
 params = getCreds()
 params['hashtag_name'] = hashtag

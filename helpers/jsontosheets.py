@@ -21,7 +21,7 @@ def json_to_excel(json_file, excel_file):
     # Create a DataFrame with two columns
     df = pd.DataFrame({
         "Text": data,
-        "Category": ["Educational" for _ in data]
+        "Category": ["Comedy" for _ in data]
     })
 
     # Save to Excel
@@ -33,5 +33,5 @@ def json_to_excel(json_file, excel_file):
 
 # Example usage
 json_file = "hashtagposts.json"
-excel_file = "educational.xlsx"
+excel_file = "Comedy.xlsx"
 json_to_excel(json_file, excel_file)
